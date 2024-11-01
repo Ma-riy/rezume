@@ -89,3 +89,6 @@ ol.hr li {
     border: 1px solid #000; 
     padding: 3px; 
 }
+a.col {
+    color: #ffffff;
+}
