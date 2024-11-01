@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Черный фон для страницы */
+}
+#container {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+header {
+    background-color: #fae9ff; /* Темный фон для заголовка */
+    color: rgb(148, 64, 64);
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px 15px 0 0; /* Закругленные углы сверху */
+}
+.img{
+    display: flex;
+}
+#foto {
+    max-width: 270px; /* Ограничение по ширине для логотипа */
+    height: 360px; /* Автоматическая высота */
+    margin-bottom: 10px; /* Отступ снизу для логотипа */
+    margin-left: 15px;
+    margin-top: 15px;
+}
+h1, h2 {
+    margin: 0 0 10px;
+}
+h1 {
+    font-size: 50px; /* Размер шрифта */
+  /* color: #04290f; /* Цвет текста (черный) */
+    text-shadow: 2px 2px 0 #ffbece; /* Тень для создания объема */
+    position: relative; /* Позиционирование для лучшего эффекта */
+  /*  z-index: 2; /* Положение слоя */
+    margin-top: -5px; /* Сдвиг вверх для наложения */
+}
+h2 {
+    font-size: 18px;
+}
+nav {
+    background-color: #a86161; /* Фон навигации */
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    position: absolute;
+    top: 50px; /* Позиция под заголовком */
+    left: 20px;
+    width: 300px;
+    height: calc(100% - 80px); /* Высота, чтобы не выходить за пределы контейнера */
+    border-radius: 0 15px 0 15px; /* Закругленные углы справа */
+}
+main {
+    margin: 15px 0px 10px 350px; /* Отступы для основного контента */
+    padding: 20px;
+    background-color: #fff; /* Белый фон для основного контента */
+    border-radius: 15px; /* Закругленные углы */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #5a0e0e; /* Темный фон для подвала */
+    color: white;
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    top: 780px;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 15px 15px; /* Закругленные углы снизу */
+}
+ul.with-dash {
+    list-style: none;
+
+}
+.center {
+    text-align: center;
+}
+ol.hr {
+    margin: 0;
+    padding: 4px;
+}
+ol.hr li {
+    display: inline; 
+    margin-right: 5px; 
+    border: 1px solid #000; 
+    padding: 3px; 
+}
